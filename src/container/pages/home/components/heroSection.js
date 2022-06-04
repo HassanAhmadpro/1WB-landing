@@ -10,7 +10,7 @@ export default function heroSection() {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/GSJPueAJnu8?controls=0&autoplay=1&mute=1&showinfo=0"
+              src="https://www.youtube.com/embed/VvokCJFIRK0&t=70?controls=0&autoplay=1&mute=1&showinfo=0&loop=1&playlist=VvokCJFIRK0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -18,17 +18,31 @@ export default function heroSection() {
             ></iframe>
           </div>
         </div>
-        <div className="row">
-          <div className="col-lg-12">
-            <p className="text-center main-heading mt-2">1 World Blockchain</p>
+      </div>
+      <div className="container">
+        <div className="row mt-5">
+          <div className="col-lg-6 mt-5">
+            <h1 className="main-heading mt-2">ONE</h1>
+            <h1 className="main-heading mt-2">WORLD</h1>
+            <h1 className="main-heading mt-2">BLOCKCHAIN</h1>
+            <p className="main-sub-heading">
+              A Modern Solution to levitate business with Web3 and BlockChain.
+            </p>
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+          <div className="col-lg-6">
             <img src={HeroImage} className="hero-img" effect="blur" />
           </div>
         </div>
-        <div className="row">
+
+        {/* <div className="row">
           <div className="col-lg-12 main-sub-heading">
-            A Modern Solution to levitate business with Web3 and BlockChain.
+            
           </div>
-        </div>
+        </div> */}
       </div>
     </Fragment>
   );
