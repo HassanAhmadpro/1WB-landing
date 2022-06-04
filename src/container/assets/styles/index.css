@@ -1,0 +1,13 @@
+@import "./heroSection.css";
+@import "./header.css";
+@import "./footer.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:wght@100&display=swap");
+/* Font */
+/* @font-face {
+  font-family: "Oxygen", sans-serif;
+  src: url("../fonts/Oxygen-Regular.ttf") format("opentype");
+}
+body {
+  font-family: "Oxygen", sans-serif;
+} */

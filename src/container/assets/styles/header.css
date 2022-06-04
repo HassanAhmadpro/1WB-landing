@@ -1,0 +1,19 @@
+.header-nav {
+  z-index: 1;
+}
+.navbar-toggler-icon {
+  color: white;
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.nav-item {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400 !important;
+  font-size: 22px;
+}
+.navbar-brand {
+  font-weight: 400 !important;
+  font-size: 22px;
+}
