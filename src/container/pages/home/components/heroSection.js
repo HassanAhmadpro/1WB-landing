@@ -5,7 +5,7 @@ export default function heroSection() {
   return (
     <Fragment>
       <div className="container">
-        <div className="row">
+        {/* <div className="row">
           <div className="video-container">
             <iframe
               width="560"
@@ -17,6 +17,9 @@ export default function heroSection() {
               allowfullscreen
             ></iframe>
           </div>
+        </div> */}
+        <div className="row">
+          <div className="d-flex flex-column justify-content-center w-100 h-100"></div>
         </div>
       </div>
       <div className="container">
@@ -34,7 +37,12 @@ export default function heroSection() {
             <br />
           </div>
           <div className="col-lg-6">
-            <img src={HeroImage} className="hero-img" effect="blur" />
+            <img
+              src={HeroImage}
+              className="hero-img"
+              effect="blur"
+              alt="Hero Section"
+            />
           </div>
         </div>
 
