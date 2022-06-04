@@ -5,7 +5,7 @@
 body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
-  animation: gradient 5s ease infinite;
+  animation: gradient 10s ease infinite;
   height: 100vh;
 }
 
@@ -49,24 +49,29 @@ body {
   background-size: 400% 400%;
   animation: gradient 20s ease infinite;
   border-radius: 50%;
-  width: 400px;
-  height: 400px;
+  margin-left: 25%;
+  width: 450px;
+  height: 450px;
+  box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
 }
 .img-wrapper-2 {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+  height: 350px;
 }
 .img-wrapper-3 {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
+  /* animation: rotation 5s ease infinite; */
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+  height: 250px;
 }
 @keyframes rotation {
   from {

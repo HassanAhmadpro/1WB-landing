@@ -6,7 +6,7 @@ export default function footer() {
       <div className="container mt-5 mb-5 footer-main">
         <div className="row text-sm-center">
           <div className="text-white col-md-4 text-xs-center text-md-left footer-text">
-            2022 OneWB. All rights reserved.
+            OneWB © 2022 developed by Hostollo.
           </div>
           <div className="text-white col-md-4 text-md-center">
             <i class="fa-brands fa-instagram"></i>
@@ -17,6 +17,7 @@ export default function footer() {
             hi@onewb.com
           </div>
         </div>
+        <br />
       </div>
     </Fragment>
   );
