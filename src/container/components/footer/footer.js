@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 export default function footer() {
   return (
     <Fragment>
-      <div className="container mt-5 mb-3 footer-main">
+      <div className="container mt-5 mb-5 footer-main">
         <div className="row text-sm-center">
           <div className="text-white col-md-4 text-xs-center text-md-left footer-text">
             2022 OneWB. All rights reserved.

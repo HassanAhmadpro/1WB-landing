@@ -25,10 +25,10 @@ export default function heroSection() {
       <div className="container">
         <div className="row mt-5">
           <div className="col-lg-6 mt-5">
-            <h1 className="main-heading mt-2">ONE</h1>
-            <h1 className="main-heading mt-2">WORLD</h1>
-            <h1 className="main-heading mt-2">BLOCKCHAIN</h1>
-            <p className="main-sub-heading">
+            <h1 className="main-heading fade-in-text mt-2">ONE</h1>
+            <h1 className="main-heading fade-in-text mt-2">WORLD</h1>
+            <h1 className="main-heading fade-in-text mt-2">BLOCKCHAIN</h1>
+            <p className="main-sub-heading fade-in-text">
               A Modern Solution to levitate business with Web3 and BlockChain.
             </p>
             <br />
@@ -36,21 +36,26 @@ export default function heroSection() {
             <br />
             <br />
           </div>
-          <div className="col-lg-6">
-            <img
-              src={HeroImage}
-              className="hero-img"
-              effect="blur"
-              alt="Hero Section"
-            />
+          <div className="col-md-6 mt-5">
+            <div className="img-wrapper">
+              {/* <img
+                src={HeroImage}
+                className="hero-img"
+                effect="blur"
+                alt="Hero Section"
+              /> */}
+              <div className="img-wrapper-2">
+                {" "}
+                <div className="img-wrapper-3"></div>
+              </div>
+            </div>
           </div>
         </div>
-
-        {/* <div className="row">
-          <div className="col-lg-12 main-sub-heading">
-            
+        <div class="container">
+          <div class="field">
+            <div class="mouse"></div>
           </div>
-        </div> */}
+        </div>
       </div>
     </Fragment>
   );
