@@ -3,11 +3,8 @@ import React, { Fragment, Suspense } from "react";
 import "./container/assets/styles/index.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 const Header = React.lazy(() => import("./container/components/header/header")); // Lazy-loaded
-const Footer = React.lazy(() => import("./container/components/footer/footer")); // Lazy-loaded
-const Home = React.lazy(() => import("./container/pages/home/home")); // Lazy-loaded
-// import Header from "./container/components/header/header";
-// import Footer from "./container/components/footer/footer";
-// import Home from "./container/pages/home/home";
+const Footer = React.lazy(() => import("./container/components/footer/footer"));
+const Home = React.lazy(() => import("./container/pages/home/home"));
 
 function App() {
   return (
@@ -27,14 +24,16 @@ function Spinner() {
   return (
     <div
       style={{
-        margin: "auto",
-        textAlign: "center",
-        alignItems: "center",
+        position: "absolute",
+        top: "50%",
+        left: "50%",
+        margin: "-50px 0px 0px -50px",
       }}
-      class="spinner-border text-primary"
-      role="status"
+      class="text-center"
     >
-      <span class="visually-hidden">Loading...</span>
+      <div class="spinner-border text-dark" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
     </div>
   );
 }

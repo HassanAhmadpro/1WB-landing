@@ -21,11 +21,6 @@ function header() {
 
           <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-              {/* <li class="nav-item">
-                <a href="#" class="nav-link text-white active pr-4">
-                  Home
-                </a>
-              </li> */}
               <li class="nav-item">
                 <a href="#" class="nav-link text-white active pr-4">
                   About
@@ -36,11 +31,6 @@ function header() {
                   How to use
                 </a>
               </li>
-              {/* <li class="nav-item">
-                <a href="#" class="nav-link text-white active pr-4">
-                  Blog
-                </a>
-              </li> */}
               <li class="nav-item">
                 <a href="#" class="nav-link text-white active">
                   Contact

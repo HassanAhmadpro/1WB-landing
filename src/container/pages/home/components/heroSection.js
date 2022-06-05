@@ -47,14 +47,7 @@ export default function heroSection() {
           </div>
           <div className="col-md-6 mt-5">
             <div className="img-wrapper">
-              {/* <img
-                src={HeroImage}
-                className="hero-img"
-                effect="blur"
-                alt="Hero Section"
-              /> */}
               <div className="img-wrapper-2">
-                {" "}
                 <div className="img-wrapper-3"></div>
               </div>
             </div>
