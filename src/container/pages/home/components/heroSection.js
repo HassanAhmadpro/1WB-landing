@@ -50,7 +50,7 @@ export default function heroSection() {
           </div>
         </div>
         {/* Mouse Scroll */}
-        <div class="field mt-lg-0 mt-md-4 mt-sm-4 mt-xs-3 mt-3">
+        <div class="field mt-lg-0 mt-md-3 mt-sm-3 mt-xs-3 mt-3 mb-3">
           <div class="mouse"></div>
         </div>
       </div>

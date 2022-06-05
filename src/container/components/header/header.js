@@ -1,26 +1,24 @@
 import React, { useState, useEffect } from "react";
 
 function Header() {
-  // Sticky Menu Area
-  useEffect(() => {
-    window.addEventListener("scroll", isSticky);
-    return () => {
-      window.removeEventListener("scroll", isSticky);
-    };
-  });
+  // Sticky Header
+  const [small, setSmall] = useState(false);
 
-  /* Method that will fix header after a specific scrollable */
-  const isSticky = (e) => {
-    const header = document.querySelector(".navbar");
-    const scrollTop = window.scrollY;
-    scrollTop >= 250
-      ? header.classList.add("is-sticky")
-      : header.classList.remove("is-sticky");
-  };
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", () =>
+        setSmall(window.pageYOffset >= 80)
+      );
+    }
+  }, []);
 
   return (
     <div>
-      <nav class="navbar navbar-expand-sm header-nav pt-md-4">
+      <nav
+        class={`navbar${
+          small ? " is-sticky" : ""
+        } navbar-expand-sm header-nav pt-md-2`}
+      >
         <div class="container">
           <a href="/" class="navbar-brand text-white">
             OneWB

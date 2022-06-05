@@ -1,24 +1,37 @@
-import React, { Fragment } from "react";
+import React, { useState, useEffect, Fragment } from "react";
 
-export default function footer() {
+export default function Footer() {
+  // Sticky Footer
+  const [small, setSmall] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", () =>
+        setSmall(window.pageYOffset >= 80)
+      );
+    }
+  }, []);
   return (
     <Fragment>
-      <div className="container mt-5 footer-main">
-        <div className="row text-sm-center text-center">
-          <div className="text-white col-md-4 text-xs-center text-md-left footer-text">
-            OneWB © 2022 developed by Hostollo.
-          </div>
-          <div className="text-white col-md-4 text-md-center">
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter ml-2"></i>
-            <i class="fa-brands fa-linkedin ml-2"></i>
-          </div>
-          <div className="text-white col-md-4 text-md-right footer-text">
-            hi@onewb.com
+      <br />{" "}
+      <div className={small ? "footer-main pt-3 pb-3" : "pt-3 pb-3"}>
+        <div className="container">
+          <div className="row text-sm-center text-center">
+            <div className="text-white col-md-4 text-xs-center text-md-left footer-text">
+              OneWB © 2022 developed by Hostollo.
+            </div>
+            <div className="text-white col-md-4 text-md-center">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter ml-2"></i>
+              <i class="fa-brands fa-linkedin ml-2"></i>
+            </div>
+            <div className="text-white col-md-4 text-md-right footer-text">
+              hi@onewb.com
+            </div>
           </div>
         </div>
-        <br />
       </div>
+      <br />
     </Fragment>
   );
 }
