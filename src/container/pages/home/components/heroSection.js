@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import HeroImage from "../../../assets/images/earth-image.png";
 import Sound from "react-sound";
 import Regency from "../../../assets/music/NinjaTracksRegency.mp3";
 
@@ -14,19 +13,6 @@ export default function heroSection() {
           loop={true}
           volume={10}
         />
-        {/* <div className="row">
-          <div className="video-container">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/VvokCJFIRK0&t=70?controls=0&autoplay=1&mute=1&showinfo=0&loop=1&playlist=VvokCJFIRK0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div> */}
         <div className="row">
           <div className="d-flex flex-column justify-content-center w-100 h-100"></div>
         </div>

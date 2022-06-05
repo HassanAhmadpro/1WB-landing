@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import LogoImage from "../../assets/images/logo.png";
 function Header() {
   // Sticky Header
   const [small, setSmall] = useState(false);
@@ -20,8 +20,8 @@ function Header() {
         } navbar-expand-sm header-nav pt-md-2`}
       >
         <div class="container">
-          <a href="/" class="navbar-brand text-white">
-            OneWB
+          <a href="/" class="navbar-brand">
+            <img src={LogoImage} className="header-logo" />
           </a>
           <button
             class="navbar-toggler"

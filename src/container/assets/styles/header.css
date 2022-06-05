@@ -2,6 +2,10 @@
   position: unset !important;
   background: transparent;
 }
+.header-logo {
+  max-width: 240px;
+  height: auto;
+}
 .header-nav {
   z-index: 1;
 }
