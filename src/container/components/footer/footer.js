@@ -1,4 +1,5 @@
 import React, { useState, useEffect, Fragment } from "react";
+import FooterLogo from "../../assets/images/logo.png";
 
 export default function Footer() {
   // Sticky Footer
@@ -7,7 +8,7 @@ export default function Footer() {
   useEffect(() => {
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", () =>
-        setSmall(window.pageYOffset >= 80)
+        setSmall(window.pageYOffset >= 90)
       );
     }
   }, []);
@@ -18,7 +19,8 @@ export default function Footer() {
         <div className="container">
           <div className="row text-sm-center text-center">
             <div className="text-white col-md-4 text-xs-center text-md-left footer-text">
-              OneWB © 2022 developed by Hostollo.
+              <img src={FooterLogo} className="footer-logo" /> © 2022 developed
+              by Hostollo.
             </div>
             <div className="text-white col-md-4 text-md-center">
               <i class="fa-brands fa-instagram"></i>

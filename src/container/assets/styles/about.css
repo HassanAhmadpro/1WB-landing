@@ -1,0 +1,15 @@
+.about-main {
+  backdrop-filter: blur(10px);
+  background: #000;
+  border-radius: 15px;
+}
+.about-heading {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+.about-img {
+  width: 90px;
+  height: auto;
+}

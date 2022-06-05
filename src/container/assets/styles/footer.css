@@ -7,8 +7,12 @@
   font-size: 20px;
 }
 .footer-main {
-  background-color: #28282b;
+  background-color: #000;
   position: sticky;
   top: 100vh;
   transition: all 1s ease-out;
+}
+.footer-logo {
+  width: 85px;
+  height: auto;
 }
