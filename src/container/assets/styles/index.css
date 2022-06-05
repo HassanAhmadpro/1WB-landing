@@ -4,9 +4,27 @@
 
 /* Font */
 @font-face {
-  font-family: CodaCaption;
+  font-family: "Coda Caption", sans-serif;
   src: url("../fonts/CodaCaption-ExtraBold.ttf");
 }
+
 body {
   font-family: CodaCaption;
+  /* background: linear-gradient(-45deg, #1f1e1e, rgb(17, 5, 10), #1a7da1, #1ba585); */
+  background: linear-gradient(-45deg, #1f1e1e, #11050a, #21abdd, #20c6a0);
+  background-size: 700% 700%;
+  animation: gradient 9s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

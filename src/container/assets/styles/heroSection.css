@@ -1,55 +1,16 @@
-@font-face {
-  font-family: "Coda Caption", sans-serif;
-  src: url("../fonts/CodaCaption-ExtraBold.ttf");
-}
-body {
-  background: linear-gradient(-45deg, #1f1e1e, rgb(17, 5, 10), #1a7da1, #1ba585);
-  background-size: 400% 400%;
-  animation: gradient 9s ease infinite;
-  height: 100vh;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-.main-heading {
-  color: white;
-  font-weight: 900;
-  font-size: 101px;
-  font-family: "Coda Caption", sans-serif;
-  src: url("../fonts/CodaCaption-ExtraBold.ttf");
-}
-.main-sub-heading {
-  color: white;
-  font-weight: 500;
-  font-size: 15px;
-  padding-top: 10px;
-  text-transform: uppercase;
-  font-family: "Coda Caption", sans-serif;
-  src: url("../fonts/CodaCaption-ExtraBold.ttf");
-}
-.hero-img {
+/* Rotating Globe */
+/* .hero-img {
   display: block;
   float: right;
   width: 80%;
   height: auto;
   animation: rotation 60s infinite linear;
-}
-.img-wrapper {
+} */
+/* .img-wrapper {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 20s ease infinite;
   border-radius: 50%;
-  position: absolute;
   margin: auto;
   right: 0;
   top: 0;
@@ -70,12 +31,11 @@ body {
   background: linear-gradient(-180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
-  /* animation: rotation 5s ease infinite; */
   border-radius: 50%;
   width: 250px;
   box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
   height: 250px;
-}
+} */
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -84,17 +44,6 @@ body {
     transform: rotate(-359deg);
   }
 }
-
-/* .earth {
-  display: block;
-  margin: auto;
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  position: relative;
-  margin-top: -100px;
-  background: url("../images/earth-image.png") 0 / auto 100%;
-} */
 
 /* Fade in Text */
 .fade-in-text {
@@ -271,5 +220,243 @@ body {
   }
   60% {
     height: 40px;
+  }
+}
+
+/* Media Queries */
+@media (min-width: 360px), (max-width: 480px) {
+  .main-heading {
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: "Coda Caption", sans-serif;
+  }
+  .main-sub-heading {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: "Coda Caption", sans-serif;
+  }
+  .img-wrapper {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    border-radius: 50%;
+    /* position: absolute; */
+    margin: auto;
+    right: 0;
+    top: 0;
+    width: 230px;
+    height: 230px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+  }
+  .img-wrapper-2 {
+    background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border-radius: 50%;
+    width: 130px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+    height: 130px;
+  }
+  .img-wrapper-3 {
+    background: linear-gradient(-180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    border-radius: 50%;
+    width: 70px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+    height: 70px;
+  }
+}
+
+@media (min-width: 500px) {
+  .main-heading {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: "Coda Caption", sans-serif;
+  }
+  .main-sub-heading {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Coda Caption", sans-serif;
+  }
+  .img-wrapper {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    border-radius: 50%;
+    /* position: absolute; */
+    margin: auto;
+    right: 0;
+    top: 0;
+    width: 230px;
+    height: 230px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+  }
+  .img-wrapper-2 {
+    background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border-radius: 50%;
+    width: 130px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+    height: 130px;
+  }
+  .img-wrapper-3 {
+    background: linear-gradient(-180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    border-radius: 50%;
+    width: 70px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+    height: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-heading {
+    color: white;
+    font-weight: 700;
+    font-size: 65px;
+    font-family: "Coda Caption", sans-serif;
+  }
+  .main-sub-heading {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Coda Caption", sans-serif;
+  }
+  .img-wrapper {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    border-radius: 50%;
+    /* position: absolute; */
+    margin: auto;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+  }
+  .img-wrapper-2 {
+    background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border-radius: 50%;
+    width: 200px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+    height: 200px;
+  }
+  .img-wrapper-3 {
+    background: linear-gradient(-180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    border-radius: 50%;
+    width: 100px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+    height: 100px;
+  }
+}
+@media (min-width: 991px) {
+  .main-heading {
+    color: white;
+    font-weight: 900;
+    font-size: 70px;
+    font-family: "Coda Caption", sans-serif;
+  }
+  .main-sub-heading {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: "Coda Caption", sans-serif;
+  }
+  .img-wrapper {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    border-radius: 50%;
+    /* position: absolute; */
+    margin: auto;
+    right: 0;
+    top: 0;
+    width: 450px;
+    height: 450px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+  }
+  .img-wrapper-2 {
+    background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border-radius: 50%;
+    width: 350px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+    height: 350px;
+  }
+  .img-wrapper-3 {
+    background: linear-gradient(-180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    border-radius: 50%;
+    width: 250px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+    height: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-heading {
+    color: white;
+    font-weight: 900;
+    font-size: 90px;
+    font-family: "Coda Caption", sans-serif;
+  }
+  .main-sub-heading {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: "Coda Caption", sans-serif;
+  }
+  .img-wrapper {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    border-radius: 50%;
+    /* position: absolute; */
+    margin: auto;
+    right: 0;
+    top: 0;
+    width: 450px;
+    height: 450px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+  }
+  .img-wrapper-2 {
+    background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border-radius: 50%;
+    width: 350px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+    height: 350px;
+  }
+  .img-wrapper-3 {
+    background: linear-gradient(-180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    border-radius: 50%;
+    width: 250px;
+    box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+    height: 250px;
   }
 }

@@ -1,6 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-function header() {
+function Header() {
+  // Sticky Menu Area
+  useEffect(() => {
+    window.addEventListener("scroll", isSticky);
+    return () => {
+      window.removeEventListener("scroll", isSticky);
+    };
+  });
+
+  /* Method that will fix header after a specific scrollable */
+  const isSticky = (e) => {
+    const header = document.querySelector(".navbar");
+    const scrollTop = window.scrollY;
+    scrollTop >= 250
+      ? header.classList.add("is-sticky")
+      : header.classList.remove("is-sticky");
+  };
+
   return (
     <div>
       <nav class="navbar navbar-expand-sm header-nav pt-md-4">
@@ -44,4 +61,4 @@ function header() {
   );
 }
 
-export default header;
+export default Header;

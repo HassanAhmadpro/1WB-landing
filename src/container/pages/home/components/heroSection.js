@@ -1,17 +1,17 @@
 import React, { Fragment } from "react";
 import HeroImage from "../../../assets/images/earth-image.png";
-import Sound from 'react-sound';
+import Sound from "react-sound";
 import Regency from "../../../assets/music/NinjaTracksRegency.mp3";
 
 export default function heroSection() {
   return (
     <Fragment>
       <div className="container">
-        <Sound 
+        <Sound
           url={Regency}
           playStatus={Sound.status.PLAYING}
           autoLoad={true}
-          loop ={true}
+          loop={true}
           volume={10}
         />
         {/* <div className="row">
@@ -32,20 +32,16 @@ export default function heroSection() {
         </div>
       </div>
       <div className="container">
-        <div className="row mt-5">
-          <div className="col-lg-6 mt-5">
+        <div className="row mt-lg-5 mt-md-2 mt-sm-0 mt-xs-0">
+          <div className="col-xl-7 col-lg-7 col-md-12 mt-lg-5 mt-md-2 mt-sm-0 mt-xs-5 mt-5">
             <h1 className="main-heading fade-in-text mt-2">ONE</h1>
             <h1 className="main-heading fade-in-text mt-2">WORLD</h1>
             <h1 className="main-heading fade-in-text mt-2">BLOCKCHAIN</h1>
             <p className="main-sub-heading fade-in-text">
               A Modern Solution to levitate business with Web3 and BlockChain.
             </p>
-            <br />
-            <br />
-            <br />
-            <br />
           </div>
-          <div className="col-md-6 mt-5">
+          <div className="col-xl-5 col-lg-5 col-md-12 mt-lg-5 mt-md-4 mt-sm-0 mt-xs-0">
             <div className="img-wrapper">
               <div className="img-wrapper-2">
                 <div className="img-wrapper-3"></div>
@@ -53,10 +49,9 @@ export default function heroSection() {
             </div>
           </div>
         </div>
-        <div class="container">
-          <div class="field">
-            <div class="mouse"></div>
-          </div>
+        {/* Mouse Scroll */}
+        <div class="field mt-lg-0 mt-md-4 mt-sm-4 mt-xs-3 mt-3">
+          <div class="mouse"></div>
         </div>
       </div>
     </Fragment>

@@ -3,8 +3,8 @@ import React, { Fragment } from "react";
 export default function footer() {
   return (
     <Fragment>
-      <div className="container mt-5 mb-5 footer-main">
-        <div className="row text-sm-center">
+      <div className="container mt-5 footer-main">
+        <div className="row text-sm-center text-center">
           <div className="text-white col-md-4 text-xs-center text-md-left footer-text">
             OneWB © 2022 developed by Hostollo.
           </div>

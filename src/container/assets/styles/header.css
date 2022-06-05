@@ -8,12 +8,75 @@
 .navbar-toggler:focus {
   box-shadow: none !important;
 }
-.nav-item {
-  font-family: "Oxygen", sans-serif;
-  font-weight: 400 !important;
-  font-size: 22px;
+/* Sticky Header */
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: #ffffff !important;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
-.navbar-brand {
-  font-weight: 700 !important;
-  font-size: 40px !important;
+/* Media Queries */
+@media (min-width: 360px), (max-width: 480px) {
+  .nav-item {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400 !important;
+    font-size: 18px;
+  }
+  .navbar-brand {
+    font-weight: 700 !important;
+    font-size: 25px !important;
+  }
+}
+
+@media (min-width: 500px) {
+  .nav-item {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400 !important;
+    font-size: 18px;
+  }
+  .navbar-brand {
+    font-weight: 700 !important;
+    font-size: 30px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-item {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400 !important;
+    font-size: 22px;
+  }
+  .navbar-brand {
+    font-weight: 700 !important;
+    font-size: 35px !important;
+  }
+}
+@media (min-width: 991px) {
+  .nav-item {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400 !important;
+    font-size: 22px;
+  }
+  .navbar-brand {
+    font-weight: 700 !important;
+    font-size: 40px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-item {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400 !important;
+    font-size: 22px;
+  }
+  .navbar-brand {
+    font-weight: 700 !important;
+    font-size: 40px !important;
+  }
 }
