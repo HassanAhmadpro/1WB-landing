@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import LogoImage from "../../assets/images/logo.png";
+
 function Header() {
   // Sticky Header
   const [small, setSmall] = useState(false);

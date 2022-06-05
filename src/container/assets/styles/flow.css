@@ -1,0 +1,149 @@
+:root {
+  --gradient-shadow: linear-gradient(
+    45deg,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000
+  );
+}
+.about-main {
+  backdrop-filter: blur(100px);
+  /* background: #000; */
+  border-radius: 15px;
+  background: linear-gradient(
+    45deg,
+    #1f1e1e,
+    #b15f1b,
+    #bb1ec9,
+    #000000,
+    #1f1e1e,
+    #1b3c84,
+    #c9b31e,
+    #000000
+  );
+  background-size: 700% 700%;
+  animation: aboutGradient 20s ease infinite;
+}
+
+@keyframes aboutGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.about-heading {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  font-family: "Coda Caption", sans-serif;
+}
+.about-img {
+  width: 90px;
+  height: auto;
+}
+.logo-animation {
+  background: hsl(0deg 0% 13%);
+  border-radius: 15px;
+  width: 100%;
+  height: 150px;
+  display: grid;
+  text-align: center;
+  box-shadow: 0px 0px 10px 10px #131618;
+  /*  */
+}
+.bg-wrapper {
+  background: linear-gradient(-45deg, #cd2f2f, #2e4b10, #21abdd, #4e8c7d);
+  background-size: 700% 700%;
+  animation: gradient 9s ease infinite;
+  box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+  border: 2px;
+  border-radius: 15px;
+  padding: 18px;
+}
+.about-logo {
+  max-width: 126px;
+  height: auto;
+}
+/*  */
+.shadow {
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  width: 100%;
+  height: 150px;
+  box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
+  background: linear-gradient(0deg, #000, #262626);
+}
+.shadow:before,
+.shadow:after {
+  content: "";
+  position: absolute;
+  border-radius: 20px;
+  top: -2px;
+  left: -2px;
+  background: var(--gradient-shadow);
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: animate 20s linear infinite;
+}
+
+.shadow:after {
+  filter: blur(20px);
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 300% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/*  */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* Media Queries */
+@media (min-width: 360px), (max-width: 480px) {
+  .about-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .about-heading {
+    font-size: 35px;
+  }
+}
