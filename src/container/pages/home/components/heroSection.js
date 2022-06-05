@@ -1,10 +1,19 @@
 import React, { Fragment } from "react";
 import HeroImage from "../../../assets/images/earth-image.png";
+import Sound from 'react-sound';
+import Regency from "../../../assets/music/NinjaTracksRegency.mp3";
 
 export default function heroSection() {
   return (
     <Fragment>
       <div className="container">
+        <Sound 
+          url={Regency}
+          playStatus={Sound.status.PLAYING}
+          autoLoad={true}
+          loop ={true}
+          volume={10}
+        />
         {/* <div className="row">
           <div className="video-container">
             <iframe

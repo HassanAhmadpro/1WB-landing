@@ -3,7 +3,7 @@
   src: url("../fonts/CodaCaption-ExtraBold.ttf");
 }
 body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #1f1e1e, rgb(17, 5, 10), #1a7da1, #1ba585);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   height: 100vh;
