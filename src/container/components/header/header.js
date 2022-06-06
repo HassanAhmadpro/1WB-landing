@@ -21,9 +21,7 @@ function Header() {
         } navbar-expand-sm header-nav pt-md-2`}
       >
         <div class="container">
-          <a href="/" class="navbar-brand">
-            <img src={LogoImage} className="header-logo" />
-          </a>
+          <img src={LogoImage} className="header-logo" />
           <button
             class="navbar-toggler"
             type="button"

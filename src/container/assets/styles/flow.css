@@ -15,7 +15,6 @@
 }
 .about-main {
   backdrop-filter: blur(100px);
-  /* background: #000; */
   border-radius: 15px;
   background: linear-gradient(
     45deg,
@@ -45,14 +44,18 @@
 }
 
 .about-heading {
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: 900;
   text-align: center;
   color: white;
   font-family: "Coda Caption", sans-serif;
 }
 .about-img {
   width: 90px;
+  height: auto;
+}
+.about-img-visa {
+  width: 110px;
   height: auto;
 }
 .logo-animation {
@@ -144,6 +147,27 @@
     margin-bottom: 20px;
   }
   .about-heading {
+    font-size: 25px;
+    font-family: "Coda Caption", sans-serif;
+  }
+}
+@media (min-width: 500px) {
+  .about-heading {
+    font-size: 25px;
+  }
+}
+@media (min-width: 768px) {
+  .about-heading {
     font-size: 35px;
+  }
+}
+@media (min-width: 991px) {
+  .about-heading {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-heading {
+    font-size: 40px;
   }
 }

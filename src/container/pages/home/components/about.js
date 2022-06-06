@@ -5,8 +5,8 @@ export default function About() {
     <Fragment>
       <div className="container">
         <div className="row mt-5 mb-5">
-          <div className="col-lg-6 mt-5">
-            <h1 className="video-heading">ABOUT US</h1>
+          <div className="col-lg-6 m-auto">
+            <h1 className="video-heading mt-5">ABOUT US</h1>
             <h1 className="video-heading pt-2">WHAT IS OneWB?</h1>
             <p className="video-text pt-4">
               OneWB is a Single Staking Investment Pool focused on a portfolio

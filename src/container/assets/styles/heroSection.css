@@ -190,7 +190,8 @@
   .main-heading {
     color: white;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 50px;
+    margin-top: 10px;
     font-family: "Coda Caption", sans-serif;
   }
   .main-sub-heading {
@@ -210,8 +211,8 @@
     margin: auto;
     right: 0;
     top: 0;
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
     box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
   }
   .img-wrapper-2 {
@@ -219,32 +220,32 @@
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     border-radius: 50%;
-    width: 130px;
+    width: 150px;
     box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
-    height: 130px;
+    height: 150px;
   }
   .img-wrapper-3 {
     background: linear-gradient(-180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     border-radius: 50%;
-    width: 70px;
+    width: 85px;
     box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
-    height: 70px;
+    height: 85px;
   }
 }
 
 @media (min-width: 500px) {
   .main-heading {
     color: white;
-    font-weight: 700;
-    font-size: 40px;
+    font-weight: 800;
+    font-size: 38px;
     font-family: "Coda Caption", sans-serif;
   }
   .main-sub-heading {
     color: white;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 11px;
     text-transform: uppercase;
     font-family: "Coda Caption", sans-serif;
   }
@@ -284,8 +285,8 @@
 @media (min-width: 768px) {
   .main-heading {
     color: white;
-    font-weight: 700;
-    font-size: 65px;
+    font-weight: 800;
+    font-size: 60px;
     font-family: "Coda Caption", sans-serif;
   }
   .main-sub-heading {
@@ -300,12 +301,11 @@
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
     border-radius: 50%;
-    /* position: absolute; */
     margin: auto;
     right: 0;
     top: 0;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
   }
   .img-wrapper-2 {
@@ -313,18 +313,18 @@
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     border-radius: 50%;
-    width: 200px;
+    width: 250px;
     box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
-    height: 200px;
+    height: 250px;
   }
   .img-wrapper-3 {
     background: linear-gradient(-180deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     border-radius: 50%;
-    width: 100px;
+    width: 150px;
     box-shadow: 5px 10px 18px 10px rgb(0 0 0 / 20%);
-    height: 100px;
+    height: 150px;
   }
 }
 @media (min-width: 991px) {
@@ -379,13 +379,13 @@
   .main-heading {
     color: white;
     font-weight: 900;
-    font-size: 90px;
+    font-size: 85px;
     font-family: "Coda Caption", sans-serif;
   }
   .main-sub-heading {
     color: white;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 17px;
     padding-top: 10px;
     text-transform: uppercase;
     font-family: "Coda Caption", sans-serif;
