@@ -12,7 +12,7 @@
   text-align: justify;
   text-justify: inter-word;
 }
-.vidoe-sizing {
+.video-sizing {
   width: 100%;
   max-height: 450px;
   border-radius: 15px;
@@ -20,5 +20,15 @@
 @media (min-width: 360px), (max-width: 480px) {
   .video-heading {
     font-size: 36px !important;
+  }
+}
+@media (min-width: 991px) {
+  .video-section {
+    padding-top: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .video-section {
+    padding-top: 50px;
   }
 }

@@ -4,7 +4,7 @@ export default function About() {
   return (
     <Fragment>
       <div className="container">
-        <div className="row mt-5 mb-5">
+        <div className="row mt-5 mb-5 video-section">
           <div className="col-lg-6 m-auto">
             <h1 className="video-heading mt-5">ABOUT US</h1>
             <h1 className="video-heading pt-2">WHAT IS OneWB?</h1>
@@ -22,7 +22,7 @@ export default function About() {
               width="420"
               height="345"
               src="https://www.youtube.com/embed/dAl2eqadr8U?controls=0"
-              className="vidoe-sizing"
+              className="video-sizing"
             ></iframe>
           </div>
         </div>

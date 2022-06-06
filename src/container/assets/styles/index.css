@@ -3,6 +3,7 @@
 @import "./footer.css";
 @import "./flow.css";
 @import "./about.css";
+@import "./howItWorks.css";
 
 /* Font */
 @font-face {
@@ -28,4 +29,20 @@ body {
   100% {
     background-position: 0% 50%;
   }
+}
+
+/* For Scroll */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: 0 0 1rem 0 rgba(154, 114, 114, 0.2) !important;
+  background-color: rgba(105, 118, 157, 0.56) !important;
+}
+::-webkit-scrollbar-thumb {
+  background: #000;
+}
+::-webkit-scrollbar-thumb:hover {
+  box-shadow: 0 0 1rem 0 rgba(154, 114, 114, 0.2) !important;
+  background-color: rgba(105, 118, 157, 0.56) !important;
 }
