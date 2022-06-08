@@ -42,9 +42,11 @@ export default function heroSection() {
           </div>
         </div>
         {/* Mouse Scroll */}
-        <div class="field mt-lg-0 mt-md-5 mt-sm-5 mt-xs-4 mt-3 mb-3">
-          <div class="mouse"></div>
-        </div>
+        <a href="#section-scroll">
+          <div class="field mt-lg-5 mt-md-5 mt-sm-5 mt-xs-4 mt-3 mb-3">
+            <div class="mouse"></div>
+          </div>
+        </a>
       </div>
     </Fragment>
   );
