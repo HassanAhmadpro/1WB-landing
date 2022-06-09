@@ -36,17 +36,17 @@ function Header() {
           <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a href="#" class="nav-link text-white active pr-4">
+                <a href="#about-scroll" class="nav-link text-white active pr-4">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link text-white active pr-4">
+                <a href="#hoi-scroll" class="nav-link text-white active pr-4">
                   How to use
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link text-white active">
+                <a href="#contact" class="nav-link text-white active">
                   Contact
                 </a>
               </li>

@@ -7,11 +7,27 @@ export default function Contact() {
       <section id="contact">
         <div class="contact-box">
           <div class="contact-links">
-            <h2 className="contact-heading">GET IN TOUCH</h2>
+            <h2 className="contact-heading pt-5">GET IN TOUCH</h2>
             <div className="row">
-              <div className="col-lg-8 col-sm-8 col-xs-8 col-8 text-center m-auto">
-                <div className="shadow-contact mt-lg-5 mt-md-4 mt-sm-4 mt-4">
-                  <img src={ContactIcon} className="contact-icon m-auto" />
+              <div className="col-lg-12 col-sm-12 col-xs-12 col-12 text-center m-auto">
+                <div class="social-container">
+                  <ul class="social-icons">
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

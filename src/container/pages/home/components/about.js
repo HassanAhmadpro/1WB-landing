@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 export default function About() {
   return (
     <Fragment>
-      <div className="container">
+      <div className="container" id="about-scroll">
         <div className="row mt-5 mb-5 video-section">
           <div className="col-lg-6 m-auto">
             <h1 className="video-heading mt-5">ABOUT US</h1>
