@@ -43,6 +43,7 @@
   width: 110px;
   height: auto;
 }
+
 .logo-animation {
   background: hsl(0deg 0% 13%);
   border-radius: 15px;
@@ -157,14 +158,41 @@
   .about-heading {
     font-size: 35px;
   }
+  .about-flow-img {
+    width: 60%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .about-chart-img {
+    margin-top: 40px;
+    width: 82%;
+    height: auto;
+  }
 }
 @media (min-width: 991px) {
   .about-heading {
     font-size: 40px;
   }
+  .about-flow-img {
+    width: 80%;
+    height: auto;
+  }
+  .about-chart-img {
+    width: 92%;
+    height: auto;
+  }
 }
 @media (min-width: 1200px) {
   .about-heading {
     font-size: 40px;
+  }
+  .about-flow-img {
+    width: 80%;
+    height: auto;
+  }
+  .about-chart-img {
+    width: 98%;
+    height: auto;
   }
 }
