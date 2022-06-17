@@ -9,7 +9,7 @@ export default function Contact() {
           <div class="contact-links">
             <h2 className="contact-heading pt-5">GET IN TOUCH</h2>
             <div className="row">
-              <div className="col-lg-12 col-sm-12 col-xs-12 col-12 text-center m-auto">
+              <div className="col-lg-12 col-sm-12 col-xs-12 col-12">
                 <div class="social-container">
                   <ul class="social-icons">
                     <li>

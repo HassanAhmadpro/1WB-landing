@@ -299,7 +299,8 @@ textarea:valid + label {
 }
 /*  */
 .social-container {
-  width: 400px;
+  width: 100%;
+  text-align: center;
 }
 .social-icons {
   padding: 0;
