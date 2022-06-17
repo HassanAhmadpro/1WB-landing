@@ -148,10 +148,28 @@
     font-size: 25px;
     font-family: "Coda Caption", sans-serif;
   }
+  .about-flow-img {
+    width: 50%;
+    height: auto;
+  }
+  .about-chart-img {
+    width: 90%;
+    margin-top: 20px;
+    height: auto;
+  }
 }
 @media (min-width: 500px) {
   .about-heading {
     font-size: 25px;
+  }
+  .about-flow-img {
+    width: 50%;
+    height: auto;
+  }
+  .about-chart-img {
+    width: 90%;
+    margin-top: 20px;
+    height: auto;
   }
 }
 @media (min-width: 768px) {
