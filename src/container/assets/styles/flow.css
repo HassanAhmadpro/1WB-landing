@@ -149,12 +149,14 @@
     font-family: "Coda Caption", sans-serif;
   }
   .about-flow-img {
-    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 85%;
     height: auto;
   }
   .about-chart-img {
     width: 90%;
-    margin-top: 20px;
+    margin-top: 30px;
     height: auto;
   }
 }
@@ -210,7 +212,7 @@
     height: auto;
   }
   .about-chart-img {
-    width: 98%;
+    width: 92%;
     height: auto;
   }
 }
