@@ -5,6 +5,9 @@
 @import "./about.css";
 @import "./contact.css";
 @import "./howItWorks.css";
+@import "./services.css";
+@import "./team.css";
+@import "./features.css";
 
 /* Font */
 @font-face {

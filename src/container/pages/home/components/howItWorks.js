@@ -4,7 +4,7 @@ export default function HowItWorks() {
   return (
     <Fragment>
       <div className="container" id="hoi-scroll">
-        <div className="row mt-5 mb-5">
+        <div className="row mt-1 mb-5">
           <div className="col-lg-12 col-12">
             <h1 className="hiw-heading mt-5">How It Works</h1>
           </div>

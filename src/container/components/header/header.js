@@ -41,8 +41,26 @@ function Header() {
                 </a>
               </li>
               <li class="nav-item">
+                <a
+                  href="#section-services"
+                  class="nav-link text-white active pr-4"
+                >
+                  Services
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="blog." class="nav-link text-white active pr-4">
+                  Blog
+                </a>
+              </li>
+              <li class="nav-item">
                 <a href="#hoi-scroll" class="nav-link text-white active pr-4">
-                  How to use
+                  Usage
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#team-scroll" class="nav-link text-white active pr-4">
+                  Team
                 </a>
               </li>
               <li class="nav-item">
@@ -50,6 +68,17 @@ function Header() {
                   Contact
                 </a>
               </li>
+              <div className="text-white text-md-center m-auto pl-4">
+                <a href="https://www.instagram.com">
+                  <i className="fa-brands fa-instagram text-white"></i>
+                </a>
+                <a href="https://www.twitter.com">
+                  <i className="fa-brands fa-twitter text-white ml-2"></i>
+                </a>
+                <a href="https://discord.com/invite/3THrvzh6nR">
+                  <i className="fa-brands fa-discord text-white ml-2"></i>
+                </a>
+              </div>
             </ul>
           </div>
         </div>

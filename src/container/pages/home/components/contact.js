@@ -23,8 +23,8 @@ export default function Contact() {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i class="fa fa-linkedin"></i>
+                      <a href="https://discord.com/invite/3THrvzh6nR">
+                        <i class="fa fa-discord"></i>
                       </a>
                     </li>
                   </ul>

@@ -6,7 +6,10 @@
     transform: rotate(-359deg);
   }
 }
-
+.image-sizing {
+  width: 245px;
+  height: auto;
+}
 /* Fade in Text */
 .fade-in-text {
   animation: fadeIn 3s;

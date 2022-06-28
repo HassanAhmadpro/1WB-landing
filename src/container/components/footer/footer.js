@@ -19,13 +19,14 @@ export default function Footer() {
         <div className="container">
           <div className="row text-sm-center text-center">
             <div className="text-white col-md-4 text-xs-center text-md-left footer-text">
-              <img src={FooterLogo} className="footer-logo" /> © 2022 developed
-              by Hostollo.
+              <img src={FooterLogo} className="footer-logo" /> © 2022 1WB.
             </div>
             <div className="text-white col-md-4 text-md-center">
               <i class="fa-brands fa-instagram"></i>
               <i class="fa-brands fa-twitter ml-2"></i>
-              <i class="fa-brands fa-linkedin ml-2"></i>
+              <a href="https://discord.com/invite/3THrvzh6nR">
+                <i class="fa-brands fa-discord ml-2 text-white "></i>
+              </a>
             </div>
             <div className="text-white col-md-4 text-md-right footer-text">
               hi@onewb.com
